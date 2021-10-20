@@ -5,6 +5,6 @@
  * 'score', 'rank', 'popularity' e 'synopsis'.
  * 
  * Para consumir os dados da MyAnimeList utilize a API abaixo ou
- * qualquer outra que que desejar.
+ * qualquer outra que desejar.
  * @link https://jikan.docs.apiary.io/#
  */
