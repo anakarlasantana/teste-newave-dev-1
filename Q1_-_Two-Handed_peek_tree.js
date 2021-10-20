@@ -21,5 +21,5 @@
  *  ...
  * }
  * 
- * OBS.: (Não é obrigatório a utilização de ponteiro)
+ * OBS.: (Não é obrigatório a utilização de ponteiro ou de linguagem específica)
  */
