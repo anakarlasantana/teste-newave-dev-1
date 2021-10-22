@@ -23,3 +23,51 @@
  * 
  * OBS.: (Não é obrigatório a utilização de ponteiro ou de linguagem específica)
  */
+Resposta: 
+
+class great_weapon_mastery():
+    def init(self,nome):
+        self.nome = nome
+        
+    
+    def str(self):
+        print(self.nome)
+
+
+class barbaric_might(great_weapon_mastery):
+    def _init_(self, nome):
+        super()._init_(nome)
+        
+class warhammer_focus(barbaric_might):
+    def _init_(self, nome):
+        super()._init_(nome)
+        
+class battle_axe_focus(barbaric_might):
+    def _init_(self, nome):
+        super()._init_(nome)
+        
+class greatsword_focus(barbaric_might):
+    def _init_(self, nome):
+        super()._init_(nome)
+        
+class devastating_charge(barbaric_might):
+    def _init_(self, nome):
+        super()._init_(nome)
+        
+class devastating_strike(barbaric_might):
+    def _init_(self, nome):
+        super()._init_(nome)
+        
+class cleave(devastating_strike, barbaric_might):
+    def _init_(self, nome):
+        super()._init_(nome)
+        
+class devastating_cleave(cleave):
+    def _init_(self, nome):
+        super()._init_(nome)
+
+class mighty_strike(devastating_cleave):
+    def _init_(self, nome):
+        super()._init_(nome)
+
+// Usei a POO (Herança) para resolver a questão, mas também é possivel responder a partir de estrutura de grafos. //
